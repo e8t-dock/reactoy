@@ -1,9 +1,57 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+// import tweets from "./tweets.json";
+import Tweet from "./Tweet";
+import ComposeForm from "./ComposeForm";
+import Timeline from "./Timeline";
+import { FaTwitter } from "react-icons/fa";
+import { nanoid } from "nanoid";
+
+import initialTweets from "./tweets.json";
+
+const CURRENT_USER = "anyone";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [tweets, setTweets] = useState(initialTweets);
+
+  const handlePostTweet = (content) => {
+    const newTweet = {
+      content,
+      id: nanoid(),
+      created_on: Date(Date.now()),
+      user: CURRENT_USER,
+      comments_count: 0,
+      retweets_count: 0,
+      favorites_count: 0,
+    };
+    // 配合 flex-end
+    setTweets([...tweets, newTweet]);
+  };
+  return (
+    <div className="app">
+      <FaTwitter className="app-logo" size="2em" />
+      <ComposeForm onSubmit={handlePostTweet} />
+      <div className="sparator"></div>
+      <Timeline tweets={tweets} />
+    </div>
+  );
+}
+
+function AppV1() {
+  return (
+    <div className="timeline">
+      {tweets.map(({ id, user, created_on, content }) => (
+        <Tweet key={id} user={user} createdOn={created_on}>
+          {content}
+        </Tweet>
+      ))}
+    </div>
+  );
+}
+
+function AppOld() {
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -27,7 +75,7 @@ function App() {
           >
             Learn React
           </a>
-          {' | '}
+          {" | "}
           <a
             className="App-link"
             href="https://vitejs.dev/guide/features.html"
@@ -39,7 +87,7 @@ function App() {
         </p>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
