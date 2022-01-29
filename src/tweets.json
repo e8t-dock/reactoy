@@ -1,0 +1,101 @@
+[
+  {
+    "id": "1",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "We are playing football.",
+    "user": "Xason",
+    "comments_count": 33,
+    "retweets_count": 10,
+    "favorites_count": 20
+  },
+  {
+    "id": "2",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "Navigate to any directory",
+    "user": "Jason2",
+    "comments_count": 39,
+    "retweets_count": 80,
+    "favorites_count": 10
+  },
+  {
+    "id": "3",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "Edit ROOT_URL from the default ",
+    "user": "Yason3",
+    "comments_count": 43,
+    "retweets_count": 20,
+    "favorites_count": 30
+  },
+  {
+    "id": "4",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "We are playing football.",
+    "user": "Zason4",
+    "comments_count": 23,
+    "retweets_count": 19,
+    "favorites_count": 24
+  },
+  {
+    "id": "5",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "We are playing football.",
+    "user": "Sason5",
+    "comments_count": 39,
+    "retweets_count": 11,
+    "favorites_count": 29
+  },
+  {
+    "id": "6",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "We are playing football.",
+    "user": "Uason6",
+    "comments_count": 13,
+    "retweets_count": 14,
+    "favorites_count": 24
+  },
+  {
+    "id": "7",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "We are playing football.",
+    "user": "Iason7",
+    "comments_count": 30,
+    "retweets_count": 13,
+    "favorites_count": 21
+  },
+  {
+    "id": "8",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "We are playing football.",
+    "user": "Oason8",
+    "comments_count": 38,
+    "retweets_count": 11,
+    "favorites_count": 24
+  },
+  {
+    "id": "9",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "We are playing football.",
+    "user": "Kason9",
+    "comments_count": 38,
+    "retweets_count": 14,
+    "favorites_count": 22
+  },
+  {
+    "id": "10",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "Editing Variables",
+    "user": "Pason10",
+    "comments_count": 23,
+    "retweets_count": 30,
+    "favorites_count": 10
+  },
+  {
+    "id": "11",
+    "created_on": "Sat May 01 12:50:50 +0000 2022",
+    "content": "We are playing football.",
+    "user": "Qason",
+    "comments_count": 33,
+    "retweets_count": 10,
+    "favorites_count": 20
+  }
+]
